@@ -1,0 +1,31 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi ../../../../../HP PAVILION PC\\Documents\\NetBeansProjects\\Website\\mycountry\\node_modules\\next\\dist\\client\\next": 0
+    },
+    "usedIds": {
+      "0": 0
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "static/runtime/main.js": 2,
+      "static\\Zzy0cTu4UnkmLFu6CuaA4\\pages\\_app.js": 3,
+      "static\\Zzy0cTu4UnkmLFu6CuaA4\\pages\\_error.js": 4,
+      "static\\Zzy0cTu4UnkmLFu6CuaA4\\pages\\about.js": 5,
+      "static\\Zzy0cTu4UnkmLFu6CuaA4\\pages\\index.js": 6
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}
