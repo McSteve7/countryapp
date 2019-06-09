@@ -1,20 +1,14 @@
 import Layout from '../Components/Layout';
 import index from '../pages';
-import Index from '../pages';
 
 class Forms extends React.Component{
     render(){
-        return(
+    return(
 
-    
-     
-            <form onSubmit={this.props.getCountries}>
-    
-    <select id="country">
-    <option name="country" value="{this.props.country}"></option>
-    </select>
+    <div>
+    <form  onSubmit={this.props.getCountry}>
+    <input id="country" name="country" type="name" placeholder="e.g Nigeria" required />
     <button id="myButton">CountryInfo</button>
-    
 
 
     <style jsx>{`
@@ -28,8 +22,8 @@ class Forms extends React.Component{
     
     }
     #country::placeholder{
-        font-style: italic;
         color: #08e; 
+        
     }
     #country:hover{
         -webkit-transform: scale(0.95);-moz-transform: scale(0.95);-ms-transform: scale(0.95);transform: scale(0.95);
@@ -51,10 +45,11 @@ class Forms extends React.Component{
     
     `}</style>
     </form>
-        );
+    </div>
+    );
 }
-
+}
 
    
-}
+
 export default Forms;

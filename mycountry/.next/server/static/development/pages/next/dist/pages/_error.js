@@ -93,10 +93,10 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js?22cb":
-/*!*****************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/core-js/object/create.js ***!
-  \*****************************************************************************************************************************************/
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/create.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -104,10 +104,10 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/create */ "co
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js?14b9":
-/*!**************************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/core-js/object/define-property.js ***!
-  \**************************************************************************************************************************************************/
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -115,10 +115,10 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/define-proper
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js?a992":
-/*!***************************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js ***!
-  \***************************************************************************************************************************************************/
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js":
+/*!********************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -126,10 +126,10 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/get-prototype
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js?6390":
-/*!***************************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js ***!
-  \***************************************************************************************************************************************************/
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js":
+/*!********************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -137,10 +137,10 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/set-prototype
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js?379d":
-/*!**********************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/core-js/symbol.js ***!
-  \**********************************************************************************************************************************/
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/symbol.js ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -148,10 +148,10 @@ module.exports = __webpack_require__(/*! core-js/library/fn/symbol */ "core-js/l
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js?eca1":
-/*!*******************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js ***!
-  \*******************************************************************************************************************************************/
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -160,9 +160,9 @@ module.exports = __webpack_require__(/*! core-js/library/fn/symbol/iterator */ "
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js":
-/*!*************************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js ***!
-  \*************************************************************************************************************************************************/
+/*!******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -179,9 +179,9 @@ module.exports = _assertThisInitialized;
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js":
-/*!******************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js ***!
-  \******************************************************************************************************************************************/
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -196,13 +196,13 @@ module.exports = _classCallCheck;
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/createClass.js":
-/*!***************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/helpers/createClass.js ***!
-  \***************************************************************************************************************************************/
+/*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/createClass.js ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _Object$defineProperty = __webpack_require__(/*! ../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js?14b9");
+var _Object$defineProperty = __webpack_require__(/*! ../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
 
 function _defineProperties(target, props) {
   for (var i = 0; i < props.length; i++) {
@@ -226,15 +226,15 @@ module.exports = _createClass;
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js":
-/*!******************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js ***!
-  \******************************************************************************************************************************************/
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _Object$getPrototypeOf = __webpack_require__(/*! ../core-js/object/get-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js?a992");
+var _Object$getPrototypeOf = __webpack_require__(/*! ../core-js/object/get-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js");
 
-var _Object$setPrototypeOf = __webpack_require__(/*! ../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js?6390");
+var _Object$setPrototypeOf = __webpack_require__(/*! ../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js");
 
 function _getPrototypeOf(o) {
   module.exports = _getPrototypeOf = _Object$setPrototypeOf ? _Object$getPrototypeOf : function _getPrototypeOf(o) {
@@ -248,13 +248,13 @@ module.exports = _getPrototypeOf;
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/inherits.js":
-/*!************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/helpers/inherits.js ***!
-  \************************************************************************************************************************************/
+/*!*****************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/inherits.js ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _Object$create = __webpack_require__(/*! ../core-js/object/create */ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js?22cb");
+var _Object$create = __webpack_require__(/*! ../core-js/object/create */ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js");
 
 var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js");
 
@@ -278,9 +278,9 @@ module.exports = _inherits;
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js":
-/*!*************************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js ***!
-  \*************************************************************************************************************************************************/
+/*!******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -295,9 +295,9 @@ module.exports = _interopRequireDefault;
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js":
-/*!*****************************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js ***!
-  \*****************************************************************************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -318,13 +318,13 @@ module.exports = _possibleConstructorReturn;
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js":
-/*!******************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js ***!
-  \******************************************************************************************************************************************/
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _Object$setPrototypeOf = __webpack_require__(/*! ../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js?6390");
+var _Object$setPrototypeOf = __webpack_require__(/*! ../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js");
 
 function _setPrototypeOf(o, p) {
   module.exports = _setPrototypeOf = _Object$setPrototypeOf || function _setPrototypeOf(o, p) {
@@ -340,15 +340,15 @@ module.exports = _setPrototypeOf;
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/typeof.js":
-/*!**********************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/helpers/typeof.js ***!
-  \**********************************************************************************************************************************/
+/*!***************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/typeof.js ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _Symbol$iterator = __webpack_require__(/*! ../core-js/symbol/iterator */ "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js?eca1");
+var _Symbol$iterator = __webpack_require__(/*! ../core-js/symbol/iterator */ "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js");
 
-var _Symbol = __webpack_require__(/*! ../core-js/symbol */ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js?379d");
+var _Symbol = __webpack_require__(/*! ../core-js/symbol */ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js");
 
 function _typeof2(obj) { if (typeof _Symbol === "function" && typeof _Symbol$iterator === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof _Symbol === "function" && obj.constructor === _Symbol && obj !== _Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
 
@@ -371,9 +371,9 @@ module.exports = _typeof;
 /***/ }),
 
 /***/ "./node_modules/http-status/lib/index.js":
-/*!******************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/http-status/lib/index.js ***!
-  \******************************************************************************************************************/
+/*!***********************************************!*\
+  !*** ./node_modules/http-status/lib/index.js ***!
+  \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -505,9 +505,9 @@ module.exports = {
 /***/ }),
 
 /***/ "./node_modules/next/dist/pages/_error.js":
-/*!*******************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/next/dist/pages/_error.js ***!
-  \*******************************************************************************************************************/
+/*!************************************************!*\
+  !*** ./node_modules/next/dist/pages/_error.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -640,9 +640,9 @@ var styles = {
 /***/ }),
 
 /***/ 4:
-/*!*************************************************************************************************************************!*\
-  !*** multi C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/next/dist/pages/_error.js ***!
-  \*************************************************************************************************************************/
+/*!******************************************************!*\
+  !*** multi ./node_modules/next/dist/pages/_error.js ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

@@ -2,14 +2,18 @@
 import Link from 'next/link';
 
 export default() => (
-      
+      <div>
     <div className="navbar">
     <h4>myCountry Info</h4>
     <ul>
     <li><Link href="/"><a>Home</a></Link></li>
     <li><Link href="/about"><a>About</a></Link></li>
     </ul>
-    
+    </div>
+            
+    <div>
+    <h1 className="my-h1">Hello World! </h1>
+            </div>
     <style global jsx>{`
     body{
         background: #333;
@@ -46,7 +50,9 @@ export default() => (
         color:whitesmoke;
         font-weight: 600;
     }
-
+    .my-h1{
+        color: white;
+    }
     `}</style>
     </div>
     )

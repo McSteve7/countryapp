@@ -93,6 +93,161 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./Components/Data.js":
+/*!****************************!*\
+  !*** ./Components/Data.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
+
+
+
+
+
+var _jsxFileName = "C:\\Users\\HP PAVILION PC\\Documents\\NetBeansProjects\\Website\\mycountry\\Components\\Data.js";
+
+
+
+var Data =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Data, _React$Component);
+
+  function Data() {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Data);
+
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Data).apply(this, arguments));
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Data, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "jsx-2674692197" + " " + "container",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 5
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("ul", {
+        className: "jsx-2674692197",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 6
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+        src: this.props.flag,
+        alt: "",
+        className: "jsx-2674692197" + " " + "flag-image",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 7
+        },
+        __self: this
+      }), this.props.country && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
+        className: "jsx-2674692197" + " " + "country-list",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10
+        },
+        __self: this
+      }, "Country: ", this.props.country), this.props.population && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
+        className: "jsx-2674692197",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11
+        },
+        __self: this
+      }, "Population: ", this.props.population), this.props.borders && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
+        className: "jsx-2674692197",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12
+        },
+        __self: this
+      }, "Borders: ", this.props.borders), this.props.capital && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
+        className: "jsx-2674692197",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        },
+        __self: this
+      }, "Capital City: ", this.props.capital), this.props.currency && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
+        className: "jsx-2674692197",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, "Currency: ", this.props.currency), this.props.region && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
+        className: "jsx-2674692197",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }, "Region: ", this.props.region), this.props.subRegion && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
+        className: "jsx-2674692197",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }, "Sub Region: ", this.props.subRegion), this.props.callingCodes && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
+        className: "jsx-2674692197",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }, "Calling Code: ", this.props.callingCodes), this.props.timeZones && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
+        className: "jsx-2674692197",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }, "Time Zone: ", this.props.timeZones), this.props.languages && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
+        className: "jsx-2674692197",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }, "Official Language: ", this.props.languages), this.props.error && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
+        className: "jsx-2674692197",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }, this.props.error)), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
+        id: "2674692197",
+        __self: this
+      }, ".container.jsx-2674692197{text-align:center;position:relative;-webkit-box-pack:justify;-webkit-justify-content:justify;-ms-flex-pack:justify;justify-content:justify;box-sizing:border-box;}li.jsx-2674692197{color:white;list-style:none;line-height:2.5em;text-align:center;box-sizing:border-box;text-transform:uppercase;}.flag-image.jsx-2674692197{width:300px;height:200px;border-radius:10px;}.flag-image.jsx-2674692197:hover{width:350px;height:250px;}@media (max-width:425px){body.jsx-2674692197{background:white;}.container.jsx-2674692197{width:100%;height:100%;}.flag-image.jsx-2674692197{width:70%;height:350px;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSFAgUEFWSUxJT04gUENcXERvY3VtZW50c1xcTmV0QmVhbnNQcm9qZWN0c1xcV2Vic2l0ZVxcbXljb3VudHJ5XFxDb21wb25lbnRzXFxEYXRhLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXNCd0IsQUFHbUMsQUFPTixBQVdBLEFBS0EsQUFLUyxBQUdOLEFBSUEsVUFDRSxDQUpELENBeEJBLEFBV0gsQUFLQSxLQUtiLENBNUJrQixLQWdDbEIsQUFJQSxFQWpCbUIsQUFLdkIsR0FoQnNCLFFBUEssUUFtQjNCLEVBWHNCLGtCQUNJLHNCQUNHLHlCQUM3Qiw0QkFWMEIsc0JBRTFCIiwiZmlsZSI6IkM6XFxVc2Vyc1xcSFAgUEFWSUxJT04gUENcXERvY3VtZW50c1xcTmV0QmVhbnNQcm9qZWN0c1xcV2Vic2l0ZVxcbXljb3VudHJ5XFxDb21wb25lbnRzXFxEYXRhLmpzIiwic291cmNlc0NvbnRlbnQiOlsiY2xhc3MgRGF0YSBleHRlbmRzIFJlYWN0LkNvbXBvbmVudHtcclxuICAgIFxyXG4gICAgcmVuZGVyKCl7XHJcbiAgICAgICAgcmV0dXJuKFxyXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxyXG4gICAgICAgICAgICA8dWw+XHJcbiAgICAgICAgICAgIDxpbWcgY2xhc3NOYW1lPVwiZmxhZy1pbWFnZVwiXHJcbiAgICAgICAgICAgIHNyYz17dGhpcy5wcm9wcy5mbGFnfSBhbHQ9JydcclxuICAgICAgICAgICAgLz5cclxuICAgICAgICAgICAge3RoaXMucHJvcHMuY291bnRyeSAmJiA8bGkgY2xhc3NOYW1lPVwiY291bnRyeS1saXN0XCI+Q291bnRyeToge3RoaXMucHJvcHMuY291bnRyeX08L2xpPn1cclxuICAgICAgICAgICAge3RoaXMucHJvcHMucG9wdWxhdGlvbiAmJiA8bGk+UG9wdWxhdGlvbjoge3RoaXMucHJvcHMucG9wdWxhdGlvbn08L2xpPn1cclxuICAgICAgICAgICAge3RoaXMucHJvcHMuYm9yZGVycyAmJiA8bGk+Qm9yZGVyczoge3RoaXMucHJvcHMuYm9yZGVyc308L2xpPn1cclxuICAgICAgICAgICAge3RoaXMucHJvcHMuY2FwaXRhbCAmJiA8bGk+Q2FwaXRhbCBDaXR5OiB7dGhpcy5wcm9wcy5jYXBpdGFsfTwvbGk+fVxyXG4gICAgICAgICAgICB7dGhpcy5wcm9wcy5jdXJyZW5jeSAmJiA8bGk+Q3VycmVuY3k6IHt0aGlzLnByb3BzLmN1cnJlbmN5fTwvbGk+fVxyXG4gICAgICAgICAgICB7dGhpcy5wcm9wcy5yZWdpb24gJiYgPGxpPlJlZ2lvbjoge3RoaXMucHJvcHMucmVnaW9ufTwvbGk+fVxyXG4gICAgICAgICAgICB7dGhpcy5wcm9wcy5zdWJSZWdpb24gJiYgPGxpPlN1YiBSZWdpb246IHt0aGlzLnByb3BzLnN1YlJlZ2lvbn08L2xpPn1cclxuICAgICAgICAgICAge3RoaXMucHJvcHMuY2FsbGluZ0NvZGVzICYmIDxsaT5DYWxsaW5nIENvZGU6IHt0aGlzLnByb3BzLmNhbGxpbmdDb2Rlc308L2xpPn1cclxuICAgICAgICAgICAge3RoaXMucHJvcHMudGltZVpvbmVzICYmIDxsaT5UaW1lIFpvbmU6IHt0aGlzLnByb3BzLnRpbWVab25lc308L2xpPn1cclxuICAgICAgICAgICAge3RoaXMucHJvcHMubGFuZ3VhZ2VzICYmIDxsaT5PZmZpY2lhbCBMYW5ndWFnZToge3RoaXMucHJvcHMubGFuZ3VhZ2VzfTwvbGk+fVxyXG4gICAgICAgICAgICB7dGhpcy5wcm9wcy5lcnJvciAmJiA8bGk+e3RoaXMucHJvcHMuZXJyb3J9PC9saT59XHJcblxyXG4gICAgICAgICAgICA8L3VsPlxyXG4gICAgICAgICAgICA8c3R5bGUganN4PntgXHJcbiAgICAgICAgICAgIC5jb250YWluZXJ7XHJcbiAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICAgICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6anVzdGlmeTtcclxuICAgICAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbiAgICAgICAgICAgICAgICBcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICBsaXtcclxuICAgICAgICAgICAgICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgICAgICAgICAgICAgIGxpc3Qtc3R5bGU6IG5vbmU7XHJcbiAgICAgICAgICAgICAgICBsaW5lLWhlaWdodDogMi41ZW07XHJcbiAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICAgICAgICAgICAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xyXG4gICAgICAgICAgICAgICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICBcclxuICAgICAgICAgICAgbGk6bnRoLWNoaWxkKG9kZCl7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgLmZsYWctaW1hZ2V7XHJcbiAgICAgICAgICAgICAgICB3aWR0aDogMzAwcHg7XHJcbiAgICAgICAgICAgICAgICBoZWlnaHQ6IDIwMHB4O1xyXG4gICAgICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogMTBweDtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAuZmxhZy1pbWFnZTpob3ZlcntcclxuICAgICAgICAgICAgICAgIHdpZHRoOiAzNTBweDtcclxuICAgICAgICAgICAgICAgIGhlaWdodDogMjUwcHg7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgQG1lZGlhIChtYXgtd2lkdGg6IDQyNXB4KXtcclxuICAgICAgICAgICAgICAgIGJvZHl7XHJcbiAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogd2hpdGU7XHJcbiAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgICAuY29udGFpbmVye1xyXG4gICAgICAgICAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgICAgICAgICAgICAgIGhlaWdodDogMTAwJTtcclxuICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICAgIC5mbGFnLWltYWdle1xyXG4gICAgICAgICAgICAgICAgICAgIHdpZHRoOiAgNzAlO1xyXG4gICAgICAgICAgICAgICAgICAgIGhlaWdodDogMzUwcHg7XHJcbiAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICApXHJcbiAgICB9XHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IERhdGE7Il19 */\n/*@ sourceURL=C:\\Users\\HP PAVILION PC\\Documents\\NetBeansProjects\\Website\\mycountry\\Components\\Data.js */"));
+    }
+  }]);
+
+  return Data;
+}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Data);
+
+/***/ }),
+
 /***/ "./Components/Forms.js":
 /*!*****************************!*\
   !*** ./Components/Forms.js ***!
@@ -118,8 +273,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\HP PAVILION PC\\Documents\\NetBeansProjects\\website\\mycountry\\Components\\Forms.js";
-
+var _jsxFileName = "C:\\Users\\HP PAVILION PC\\Documents\\NetBeansProjects\\Website\\mycountry\\Components\\Forms.js";
 
 
 
@@ -139,42 +293,44 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Forms, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("form", {
-        onSubmit: this.props.getCountries,
-        className: "jsx-1161512681",
+      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 8
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("form", {
+        onSubmit: this.props.getCountry,
+        className: "jsx-2241033674",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("input", {
+        id: "country",
+        name: "country",
+        type: "name",
+        placeholder: "e.g Nigeria",
+        required: true,
+        className: "jsx-2241033674",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("button", {
+        id: "myButton",
+        className: "jsx-2241033674",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 11
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("select", {
-        id: "country",
-        className: "jsx-1161512681",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("option", {
-        value: "${this.props.data.alpha3code}",
-        className: "jsx-1161512681",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14
-        },
-        __self: this
-      }, "\"$", this.props.data, "\"")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("button", {
-        id: "myButton",
-        className: "jsx-1161512681",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        },
-        __self: this
       }, "CountryInfo"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
-        id: "1161512681",
+        id: "2241033674",
         __self: this
-      }, "form.jsx-1161512681{text-align:center;}#country.jsx-1161512681{width:300px;height:25px;border:2px solid whitesmoke;}#country.jsx-1161512681::-webkit-input-placeholder{font-style:italic;color:#08e;}#country.jsx-1161512681::-moz-placeholder{font-style:italic;color:#08e;}#country.jsx-1161512681:-ms-input-placeholder{font-style:italic;color:#08e;}#country.jsx-1161512681::placeholder{font-style:italic;color:#08e;}#country.jsx-1161512681:hover{-webkit-transform:scale(0.95);-moz-transform:scale(0.95);-ms-transform:scale(0.95);-webkit-transform:scale(0.95);-ms-transform:scale(0.95);transform:scale(0.95);border-radius:5px;}#myButton.jsx-1161512681{background:#08e;height:40px;border:1px solid lightgray;border-radius:5px;font-size:15px;width:120px;}#myButton.jsx-1161512681:hover{background:#333;color:white;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSFAgUEFWSUxJT04gUENcXERvY3VtZW50c1xcTmV0QmVhbnNQcm9qZWN0c1xcd2Vic2l0ZVxcbXljb3VudHJ5XFxDb21wb25lbnRzXFxGb3Jtcy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFrQmdCLEFBRzJCLEFBR04sQUFNTSxBQUlZLEFBS2QsQUFRQSxZQXRCSixJQWVBLEFBUUEsRUExQmhCLEFBU2UsTUFMaUIsSUFlRCxBQVEvQixDQWpCQSxDQUU2RCxzQkFON0QsR0Fjc0IsRUFSaUUsZ0JBU3BFLFVBVDBGLEtBVTdGLFlBQ2hCLDZEQVZzQixrQkFDdEIiLCJmaWxlIjoiQzpcXFVzZXJzXFxIUCBQQVZJTElPTiBQQ1xcRG9jdW1lbnRzXFxOZXRCZWFuc1Byb2plY3RzXFx3ZWJzaXRlXFxteWNvdW50cnlcXENvbXBvbmVudHNcXEZvcm1zLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExheW91dCBmcm9tICcuLi9Db21wb25lbnRzL0xheW91dCc7XHJcbmltcG9ydCBpbmRleCBmcm9tICcuLi9wYWdlcyc7XHJcbmltcG9ydCBJbmRleCBmcm9tICcuLi9wYWdlcyc7XHJcblxyXG5jbGFzcyBGb3JtcyBleHRlbmRzIFJlYWN0LkNvbXBvbmVudHtcclxuICAgIHJlbmRlcigpe1xyXG4gICAgICAgIHJldHVybihcclxuXHJcbiAgICBcclxuICAgIFxyXG4gICAgICAgICAgICA8Zm9ybSBvblN1Ym1pdD17dGhpcy5wcm9wcy5nZXRDb3VudHJpZXN9PlxyXG4gICAgXHJcbiAgICA8c2VsZWN0IGlkPVwiY291bnRyeVwiPlxyXG4gICAgPG9wdGlvbiB2YWx1ZT1cIiR7dGhpcy5wcm9wcy5kYXRhLmFscGhhM2NvZGV9XCI+XCIke3RoaXMucHJvcHMuZGF0YX1cIjwvb3B0aW9uPlxyXG4gICAgPC9zZWxlY3Q+XHJcbiAgICA8YnV0dG9uIGlkPVwibXlCdXR0b25cIj5Db3VudHJ5SW5mbzwvYnV0dG9uPlxyXG5cclxuXHJcbiAgICA8c3R5bGUganN4PntgXHJcbiAgICBmb3Jte1xyXG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIH1cclxuICAgICNjb3VudHJ5e1xyXG4gICAgICAgIHdpZHRoOiAzMDBweDtcclxuICAgICAgICBoZWlnaHQ6IDI1cHg7XHJcbiAgICAgICAgYm9yZGVyOiAycHggc29saWQgd2hpdGVzbW9rZTtcclxuICAgIFxyXG4gICAgfVxyXG4gICAgI2NvdW50cnk6OnBsYWNlaG9sZGVye1xyXG4gICAgICAgIGZvbnQtc3R5bGU6IGl0YWxpYztcclxuICAgICAgICBjb2xvcjogIzA4ZTsgXHJcbiAgICB9XHJcbiAgICAjY291bnRyeTpob3ZlcntcclxuICAgICAgICAtd2Via2l0LXRyYW5zZm9ybTogc2NhbGUoMC45NSk7LW1vei10cmFuc2Zvcm06IHNjYWxlKDAuOTUpOy1tcy10cmFuc2Zvcm06IHNjYWxlKDAuOTUpO3RyYW5zZm9ybTogc2NhbGUoMC45NSk7XHJcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gICAgfVxyXG5cclxuICAgICNteUJ1dHRvbntcclxuICAgICAgICBiYWNrZ3JvdW5kOiAjMDhlO1xyXG4gICAgICAgIGhlaWdodDogNDBweDtcclxuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCBsaWdodGdyYXk7XHJcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMTVweDtcclxuICAgICAgICB3aWR0aDogMTIwcHg7XHJcbiAgICB9XHJcbiAgICAjbXlCdXR0b246aG92ZXJ7XHJcbiAgICAgICAgYmFja2dyb3VuZDogIzMzMztcclxuICAgICAgICBjb2xvcjogd2hpdGU7XHJcbiAgICB9XHJcbiAgICBcclxuICAgIGB9PC9zdHlsZT5cclxuICAgIDwvZm9ybT5cclxuICAgICAgICApO1xyXG59XHJcblxyXG5cclxuICAgXHJcbn1cclxuZXhwb3J0IGRlZmF1bHQgRm9ybXM7Il19 */\n/*@ sourceURL=C:\\Users\\HP PAVILION PC\\Documents\\NetBeansProjects\\website\\mycountry\\Components\\Forms.js */"));
+      }, "form.jsx-2241033674{text-align:center;}#country.jsx-2241033674{width:300px;height:25px;border:2px solid whitesmoke;}#country.jsx-2241033674::-webkit-input-placeholder{color:#08e;}#country.jsx-2241033674::-moz-placeholder{color:#08e;}#country.jsx-2241033674:-ms-input-placeholder{color:#08e;}#country.jsx-2241033674::placeholder{color:#08e;}#country.jsx-2241033674:hover{-webkit-transform:scale(0.95);-moz-transform:scale(0.95);-ms-transform:scale(0.95);-webkit-transform:scale(0.95);-ms-transform:scale(0.95);transform:scale(0.95);border-radius:5px;}#myButton.jsx-2241033674{background:#08e;height:40px;border:1px solid lightgray;border-radius:5px;font-size:15px;width:120px;}#myButton.jsx-2241033674:hover{background:#333;color:white;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSFAgUEFWSUxJT04gUENcXERvY3VtZW50c1xcTmV0QmVhbnNQcm9qZWN0c1xcV2Vic2l0ZVxcbXljb3VudHJ5XFxDb21wb25lbnRzXFxGb3Jtcy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFhZ0IsQUFHMkIsQUFHTixBQU1ELEFBSW1CLEFBS2QsQUFRQSxXQWZwQixDQVBnQixJQWVBLEFBUUEsRUExQmhCLE1BSWdDLElBZUQsQUFRL0IsRUFmNkQsc0JBTjdELEdBY3NCLEVBUmlFLGdCQVNwRSxVQVQwRixLQVU3RixZQUNoQiw2REFWc0Isa0JBQ3RCIiwiZmlsZSI6IkM6XFxVc2Vyc1xcSFAgUEFWSUxJT04gUENcXERvY3VtZW50c1xcTmV0QmVhbnNQcm9qZWN0c1xcV2Vic2l0ZVxcbXljb3VudHJ5XFxDb21wb25lbnRzXFxGb3Jtcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMYXlvdXQgZnJvbSAnLi4vQ29tcG9uZW50cy9MYXlvdXQnO1xyXG5pbXBvcnQgaW5kZXggZnJvbSAnLi4vcGFnZXMnO1xyXG5cclxuY2xhc3MgRm9ybXMgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnR7XHJcbiAgICByZW5kZXIoKXtcclxuICAgIHJldHVybihcclxuXHJcbiAgICA8ZGl2PlxyXG4gICAgPGZvcm0gIG9uU3VibWl0PXt0aGlzLnByb3BzLmdldENvdW50cnl9PlxyXG4gICAgPGlucHV0IGlkPVwiY291bnRyeVwiIG5hbWU9XCJjb3VudHJ5XCIgdHlwZT1cIm5hbWVcIiBwbGFjZWhvbGRlcj1cImUuZyBOaWdlcmlhXCIgcmVxdWlyZWQgLz5cclxuICAgIDxidXR0b24gaWQ9XCJteUJ1dHRvblwiPkNvdW50cnlJbmZvPC9idXR0b24+XHJcblxyXG5cclxuICAgIDxzdHlsZSBqc3g+e2BcclxuICAgIGZvcm17XHJcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgfVxyXG4gICAgI2NvdW50cnl7XHJcbiAgICAgICAgd2lkdGg6IDMwMHB4O1xyXG4gICAgICAgIGhlaWdodDogMjVweDtcclxuICAgICAgICBib3JkZXI6IDJweCBzb2xpZCB3aGl0ZXNtb2tlO1xyXG4gICAgXHJcbiAgICB9XHJcbiAgICAjY291bnRyeTo6cGxhY2Vob2xkZXJ7XHJcbiAgICAgICAgY29sb3I6ICMwOGU7IFxyXG4gICAgICAgIFxyXG4gICAgfVxyXG4gICAgI2NvdW50cnk6aG92ZXJ7XHJcbiAgICAgICAgLXdlYmtpdC10cmFuc2Zvcm06IHNjYWxlKDAuOTUpOy1tb3otdHJhbnNmb3JtOiBzY2FsZSgwLjk1KTstbXMtdHJhbnNmb3JtOiBzY2FsZSgwLjk1KTt0cmFuc2Zvcm06IHNjYWxlKDAuOTUpO1xyXG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDVweDtcclxuICAgIH1cclxuXHJcbiAgICAjbXlCdXR0b257XHJcbiAgICAgICAgYmFja2dyb3VuZDogIzA4ZTtcclxuICAgICAgICBoZWlnaHQ6IDQwcHg7XHJcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgbGlnaHRncmF5O1xyXG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDVweDtcclxuICAgICAgICBmb250LXNpemU6IDE1cHg7XHJcbiAgICAgICAgd2lkdGg6IDEyMHB4O1xyXG4gICAgfVxyXG4gICAgI215QnV0dG9uOmhvdmVye1xyXG4gICAgICAgIGJhY2tncm91bmQ6ICMzMzM7XHJcbiAgICAgICAgY29sb3I6IHdoaXRlO1xyXG4gICAgfVxyXG4gICAgXHJcbiAgICBgfTwvc3R5bGU+XHJcbiAgICA8L2Zvcm0+XHJcbiAgICA8L2Rpdj5cclxuICAgICk7XHJcbn1cclxufVxyXG5cclxuICAgXHJcblxyXG5leHBvcnQgZGVmYXVsdCBGb3JtczsiXX0= */\n/*@ sourceURL=C:\\Users\\HP PAVILION PC\\Documents\\NetBeansProjects\\Website\\mycountry\\Components\\Forms.js */")));
     }
   }]);
 
@@ -200,7 +356,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next-server/head */ "next-server/head");
 /* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_server_head__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Components_Forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Components/Forms */ "./Components/Forms.js");
-var _jsxFileName = "C:\\Users\\HP PAVILION PC\\Documents\\NetBeansProjects\\website\\mycountry\\Components\\Layout.js";
+var _jsxFileName = "C:\\Users\\HP PAVILION PC\\Documents\\NetBeansProjects\\Website\\mycountry\\Components\\Layout.js";
 
 
 
@@ -259,7 +415,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\HP PAVILION PC\\Documents\\NetBeansProjects\\website\\mycountry\\Components\\Navbar.js";
+var _jsxFileName = "C:\\Users\\HP PAVILION PC\\Documents\\NetBeansProjects\\Website\\mycountry\\Components\\Navbar.js";
 
 
 
@@ -331,7 +487,7 @@ var Navbar = function Navbar() {
   }, "About")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "2785201253",
     __self: this
-  }, "ul.jsx-2785201253 li.jsx-2785201253 a.jsx-2785201253{overflow:hidden;display:block;float:left;text-align:center;padding:10px 30px;-webkit-text-decoration:none;text-decoration:none;font-size:15px;color:white;text-transform:uppercase;font-weight:500;}.navbar.jsx-2785201253{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}.navbar.jsx-2785201253 ul.jsx-2785201253{margin:8px 0 0 0;list-style:none;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}ul.jsx-2785201253 li.jsx-2785201253 a.jsx-2785201253:hover{background:#08e;color:white;}h4.jsx-2785201253{margin-top:5px;color:whitesmoke;font-weight:600;}@media (max-width:425px){}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSFAgUEFWSUxJT04gUENcXERvY3VtZW50c1xcTmV0QmVhbnNQcm9qZWN0c1xcd2Vic2l0ZVxcbXljb3VudHJ5XFxDb21wb25lbnRzXFxOYXZiYXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBV1ksQUFHcUIsQUFZQyxBQUlBLEFBS0QsQUFJRCxlQUNDLENBekJGLEFBcUJELENBTEcsV0FNbkIsRUFyQmMsRUF5QkssQ0FUSCxRQWZJLE9BeUJyQixXQXhCc0IsZUFTZ0IsR0FSYiw4QkFjckIsb0JBYmUsZUFDSixZQUNjLHlCQUNULFVBS2hCLE1BSkEiLCJmaWxlIjoiQzpcXFVzZXJzXFxIUCBQQVZJTElPTiBQQ1xcRG9jdW1lbnRzXFxOZXRCZWFuc1Byb2plY3RzXFx3ZWJzaXRlXFxteWNvdW50cnlcXENvbXBvbmVudHNcXE5hdmJhci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gXCJuZXh0L2xpbmtcIjtcclxuXHJcblxyXG5jb25zdCBOYXZiYXIgPSAoKSA9PiAoXHJcbiA8ZGl2IGNsYXNzTmFtZT1cIm5hdmJhclwiPlxyXG48aDQ+bXlDb3VudHJ5IEluZm88L2g0PlxyXG48dWw+XHJcbjxsaT48TGluayBocmVmPVwiL1wiPjxhPkhvbWU8L2E+PC9MaW5rPjwvbGk+XHJcbjxsaT48TGluayBocmVmPVwiL2Fib3V0XCI+PGE+QWJvdXQ8L2E+PC9MaW5rPjwvbGk+XHJcbjwvdWw+XHJcblxyXG48c3R5bGUganN4PntgXHJcbnVsIGxpIGF7XHJcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICBmbG9hdDogbGVmdDtcclxuICAgIHRleHQtYWxpZ246Y2VudGVyO1xyXG4gICAgcGFkZGluZzogMTBweCAzMHB4O1xyXG4gICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gICAgZm9udC1zaXplOiAxNXB4O1xyXG4gICAgY29sb3I6d2hpdGU7XHJcbiAgICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xyXG4gICAgZm9udC13ZWlnaHQ6IDUwMDtcclxuICAgIH1cclxuICAgIC5uYXZiYXJ7XHJcbiAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XHJcbiAgICB9XHJcbiAgICAubmF2YmFyIHVse1xyXG4gICAgbWFyZ2luOiA4cHggMCAwIDA7XHJcbiAgICBsaXN0LXN0eWxlOiBub25lO1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIH1cclxuIHVsIGxpIGE6aG92ZXJ7XHJcbiAgICAgYmFja2dyb3VuZDojMDhlO1xyXG4gICAgIGNvbG9yOiB3aGl0ZTtcclxuIH1cclxuaDR7XHJcbiAgICBtYXJnaW4tdG9wOiA1cHg7XHJcbiAgICBjb2xvcjp3aGl0ZXNtb2tlO1xyXG4gICAgZm9udC13ZWlnaHQ6IDYwMDtcclxufVxyXG5AbWVkaWEgKG1heC13aWR0aDogNDI1cHgpe1xyXG5cclxuXHJcbn1cclxuYH08L3N0eWxlPlxyXG48L2Rpdj5cclxuXHJcbilcclxuXHJcbmV4cG9ydCBkZWZhdWx0IE5hdmJhcjsiXX0= */\n/*@ sourceURL=C:\\Users\\HP PAVILION PC\\Documents\\NetBeansProjects\\website\\mycountry\\Components\\Navbar.js */"));
+  }, "ul.jsx-2785201253 li.jsx-2785201253 a.jsx-2785201253{overflow:hidden;display:block;float:left;text-align:center;padding:10px 30px;-webkit-text-decoration:none;text-decoration:none;font-size:15px;color:white;text-transform:uppercase;font-weight:500;}.navbar.jsx-2785201253{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}.navbar.jsx-2785201253 ul.jsx-2785201253{margin:8px 0 0 0;list-style:none;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}ul.jsx-2785201253 li.jsx-2785201253 a.jsx-2785201253:hover{background:#08e;color:white;}h4.jsx-2785201253{margin-top:5px;color:whitesmoke;font-weight:600;}@media (max-width:425px){}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSFAgUEFWSUxJT04gUENcXERvY3VtZW50c1xcTmV0QmVhbnNQcm9qZWN0c1xcV2Vic2l0ZVxcbXljb3VudHJ5XFxDb21wb25lbnRzXFxOYXZiYXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBV1ksQUFHcUIsQUFZQyxBQUlBLEFBS0QsQUFJRCxlQUNDLENBekJGLEFBcUJELENBTEcsV0FNbkIsRUFyQmMsRUF5QkssQ0FUSCxRQWZJLE9BeUJyQixXQXhCc0IsZUFTZ0IsR0FSYiw4QkFjckIsb0JBYmUsZUFDSixZQUNjLHlCQUNULFVBS2hCLE1BSkEiLCJmaWxlIjoiQzpcXFVzZXJzXFxIUCBQQVZJTElPTiBQQ1xcRG9jdW1lbnRzXFxOZXRCZWFuc1Byb2plY3RzXFxXZWJzaXRlXFxteWNvdW50cnlcXENvbXBvbmVudHNcXE5hdmJhci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gXCJuZXh0L2xpbmtcIjtcclxuXHJcblxyXG5jb25zdCBOYXZiYXIgPSAoKSA9PiAoXHJcbiA8ZGl2IGNsYXNzTmFtZT1cIm5hdmJhclwiPlxyXG48aDQ+bXlDb3VudHJ5IEluZm88L2g0PlxyXG48dWw+XHJcbjxsaT48TGluayBocmVmPVwiL1wiPjxhPkhvbWU8L2E+PC9MaW5rPjwvbGk+XHJcbjxsaT48TGluayBocmVmPVwiL2Fib3V0XCI+PGE+QWJvdXQ8L2E+PC9MaW5rPjwvbGk+XHJcbjwvdWw+XHJcblxyXG48c3R5bGUganN4PntgXHJcbnVsIGxpIGF7XHJcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICBmbG9hdDogbGVmdDtcclxuICAgIHRleHQtYWxpZ246Y2VudGVyO1xyXG4gICAgcGFkZGluZzogMTBweCAzMHB4O1xyXG4gICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gICAgZm9udC1zaXplOiAxNXB4O1xyXG4gICAgY29sb3I6d2hpdGU7XHJcbiAgICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xyXG4gICAgZm9udC13ZWlnaHQ6IDUwMDtcclxuICAgIH1cclxuICAgIC5uYXZiYXJ7XHJcbiAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XHJcbiAgICB9XHJcbiAgICAubmF2YmFyIHVse1xyXG4gICAgbWFyZ2luOiA4cHggMCAwIDA7XHJcbiAgICBsaXN0LXN0eWxlOiBub25lO1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIH1cclxuIHVsIGxpIGE6aG92ZXJ7XHJcbiAgICAgYmFja2dyb3VuZDojMDhlO1xyXG4gICAgIGNvbG9yOiB3aGl0ZTtcclxuIH1cclxuaDR7XHJcbiAgICBtYXJnaW4tdG9wOiA1cHg7XHJcbiAgICBjb2xvcjp3aGl0ZXNtb2tlO1xyXG4gICAgZm9udC13ZWlnaHQ6IDYwMDtcclxufVxyXG5AbWVkaWEgKG1heC13aWR0aDogNDI1cHgpe1xyXG5cclxuXHJcbn1cclxuYH08L3N0eWxlPlxyXG48L2Rpdj5cclxuXHJcbilcclxuXHJcbmV4cG9ydCBkZWZhdWx0IE5hdmJhcjsiXX0= */\n/*@ sourceURL=C:\\Users\\HP PAVILION PC\\Documents\\NetBeansProjects\\Website\\mycountry\\Components\\Navbar.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
@@ -339,9 +495,9 @@ var Navbar = function Navbar() {
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js":
-/*!******************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/core-js/json/stringify.js ***!
-  \******************************************************************************************************************************************/
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -350,9 +506,9 @@ module.exports = __webpack_require__(/*! core-js/library/fn/json/stringify */ "c
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js":
-/*!*****************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/core-js/object/assign.js ***!
-  \*****************************************************************************************************************************************/
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/assign.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -360,18 +516,7 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/assign */ "co
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js?22cb":
-/*!*****************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/core-js/object/create.js ***!
-  \*****************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/create */ "core-js/library/fn/object/create");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js?4aa6":
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js":
 /*!**********************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/object/create.js ***!
   \**********************************************************************/
@@ -382,18 +527,7 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/create */ "co
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js?14b9":
-/*!**************************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/core-js/object/define-property.js ***!
-  \**************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/define-property */ "core-js/library/fn/object/define-property");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js?85f2":
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js":
 /*!*******************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js ***!
   \*******************************************************************************/
@@ -404,7 +538,7 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/define-proper
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js?061b":
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js":
 /*!********************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js ***!
   \********************************************************************************/
@@ -415,18 +549,7 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/get-prototype
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js?a992":
-/*!***************************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js ***!
-  \***************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/get-prototype-of */ "core-js/library/fn/object/get-prototype-of");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js?4d16":
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js":
 /*!********************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js ***!
   \********************************************************************************/
@@ -437,18 +560,7 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/set-prototype
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js?6390":
-/*!***************************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js ***!
-  \***************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/set-prototype-of */ "core-js/library/fn/object/set-prototype-of");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/promise.js?795b":
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/promise.js":
 /*!****************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/promise.js ***!
   \****************************************************************/
@@ -460,9 +572,9 @@ module.exports = __webpack_require__(/*! core-js/library/fn/promise */ "core-js/
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/reflect/construct.js":
-/*!*********************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/core-js/reflect/construct.js ***!
-  \*********************************************************************************************************************************************/
+/*!**************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/reflect/construct.js ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -470,18 +582,7 @@ module.exports = __webpack_require__(/*! core-js/library/fn/reflect/construct */
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js?379d":
-/*!**********************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/core-js/symbol.js ***!
-  \**********************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/symbol */ "core-js/library/fn/symbol");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js?67bb":
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js":
 /*!***************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/symbol.js ***!
   \***************************************************************/
@@ -492,7 +593,7 @@ module.exports = __webpack_require__(/*! core-js/library/fn/symbol */ "core-js/l
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js?5d58":
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js":
 /*!************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js ***!
   \************************************************************************/
@@ -503,21 +604,10 @@ module.exports = __webpack_require__(/*! core-js/library/fn/symbol/iterator */ "
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js?eca1":
-/*!*******************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js ***!
-  \*******************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/symbol/iterator */ "core-js/library/fn/symbol/iterator");
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js":
-/*!*************************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js ***!
-  \*************************************************************************************************************************************************/
+/*!******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -534,9 +624,9 @@ module.exports = _assertThisInitialized;
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js":
-/*!******************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js ***!
-  \******************************************************************************************************************************************/
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -551,9 +641,9 @@ module.exports = _classCallCheck;
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/construct.js":
-/*!*************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/helpers/construct.js ***!
-  \*************************************************************************************************************************************/
+/*!******************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/construct.js ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -596,13 +686,13 @@ module.exports = _construct;
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/createClass.js":
-/*!***************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/helpers/createClass.js ***!
-  \***************************************************************************************************************************************/
+/*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/createClass.js ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _Object$defineProperty = __webpack_require__(/*! ../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js?14b9");
+var _Object$defineProperty = __webpack_require__(/*! ../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
 
 function _defineProperties(target, props) {
   for (var i = 0; i < props.length; i++) {
@@ -655,7 +745,7 @@ function _assertThisInitialized(self) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _asyncToGenerator; });
-/* harmony import */ var _core_js_promise__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js?795b");
+/* harmony import */ var _core_js_promise__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
 /* harmony import */ var _core_js_promise__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_promise__WEBPACK_IMPORTED_MODULE_0__);
 
 
@@ -725,7 +815,7 @@ function _classCallCheck(instance, Constructor) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _createClass; });
-/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js?85f2");
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
 /* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
 
 
@@ -758,7 +848,7 @@ function _createClass(Constructor, protoProps, staticProps) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _defineProperty; });
-/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js?85f2");
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
 /* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
 
 function _defineProperty(obj, key, value) {
@@ -788,9 +878,9 @@ function _defineProperty(obj, key, value) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _getPrototypeOf; });
-/* harmony import */ var _core_js_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/get-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js?061b");
+/* harmony import */ var _core_js_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/get-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js");
 /* harmony import */ var _core_js_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js?4d16");
+/* harmony import */ var _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js");
 /* harmony import */ var _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_1__);
 
 
@@ -813,7 +903,7 @@ function _getPrototypeOf(o) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _inherits; });
-/* harmony import */ var _core_js_object_create__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/create */ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js?4aa6");
+/* harmony import */ var _core_js_object_create__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/create */ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js");
 /* harmony import */ var _core_js_object_create__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_create__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _setPrototypeOf__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./setPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/setPrototypeOf.js");
 
@@ -869,7 +959,7 @@ function _possibleConstructorReturn(self, call) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _setPrototypeOf; });
-/* harmony import */ var _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js?4d16");
+/* harmony import */ var _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js");
 /* harmony import */ var _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_0__);
 
 function _setPrototypeOf(o, p) {
@@ -893,9 +983,9 @@ function _setPrototypeOf(o, p) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _typeof; });
-/* harmony import */ var _core_js_symbol_iterator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/symbol/iterator */ "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js?5d58");
+/* harmony import */ var _core_js_symbol_iterator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/symbol/iterator */ "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js");
 /* harmony import */ var _core_js_symbol_iterator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_symbol_iterator__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _core_js_symbol__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/symbol */ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js?67bb");
+/* harmony import */ var _core_js_symbol__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/symbol */ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js");
 /* harmony import */ var _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_core_js_symbol__WEBPACK_IMPORTED_MODULE_1__);
 
 
@@ -919,15 +1009,15 @@ function _typeof(obj) {
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js":
-/*!******************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js ***!
-  \******************************************************************************************************************************************/
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _Object$getPrototypeOf = __webpack_require__(/*! ../core-js/object/get-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js?a992");
+var _Object$getPrototypeOf = __webpack_require__(/*! ../core-js/object/get-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js");
 
-var _Object$setPrototypeOf = __webpack_require__(/*! ../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js?6390");
+var _Object$setPrototypeOf = __webpack_require__(/*! ../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js");
 
 function _getPrototypeOf(o) {
   module.exports = _getPrototypeOf = _Object$setPrototypeOf ? _Object$getPrototypeOf : function _getPrototypeOf(o) {
@@ -941,13 +1031,13 @@ module.exports = _getPrototypeOf;
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/inherits.js":
-/*!************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/helpers/inherits.js ***!
-  \************************************************************************************************************************************/
+/*!*****************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/inherits.js ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _Object$create = __webpack_require__(/*! ../core-js/object/create */ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js?22cb");
+var _Object$create = __webpack_require__(/*! ../core-js/object/create */ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js");
 
 var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js");
 
@@ -971,9 +1061,9 @@ module.exports = _inherits;
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js":
-/*!*************************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js ***!
-  \*************************************************************************************************************************************************/
+/*!******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -988,9 +1078,9 @@ module.exports = _interopRequireDefault;
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js":
-/*!*****************************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js ***!
-  \*****************************************************************************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1011,13 +1101,13 @@ module.exports = _possibleConstructorReturn;
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js":
-/*!******************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js ***!
-  \******************************************************************************************************************************************/
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _Object$setPrototypeOf = __webpack_require__(/*! ../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js?6390");
+var _Object$setPrototypeOf = __webpack_require__(/*! ../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js");
 
 function _setPrototypeOf(o, p) {
   module.exports = _setPrototypeOf = _Object$setPrototypeOf || function _setPrototypeOf(o, p) {
@@ -1033,15 +1123,15 @@ module.exports = _setPrototypeOf;
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/typeof.js":
-/*!**********************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/@babel/runtime-corejs2/helpers/typeof.js ***!
-  \**********************************************************************************************************************************/
+/*!***************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/typeof.js ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _Symbol$iterator = __webpack_require__(/*! ../core-js/symbol/iterator */ "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js?eca1");
+var _Symbol$iterator = __webpack_require__(/*! ../core-js/symbol/iterator */ "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js");
 
-var _Symbol = __webpack_require__(/*! ../core-js/symbol */ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js?379d");
+var _Symbol = __webpack_require__(/*! ../core-js/symbol */ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js");
 
 function _typeof2(obj) { if (typeof _Symbol === "function" && typeof _Symbol$iterator === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof _Symbol === "function" && obj.constructor === _Symbol && obj !== _Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
 
@@ -1063,7 +1153,7 @@ module.exports = _typeof;
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/regenerator/index.js?967e":
+/***/ "./node_modules/@babel/runtime-corejs2/regenerator/index.js":
 /*!******************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/regenerator/index.js ***!
   \******************************************************************/
@@ -1076,9 +1166,9 @@ module.exports = __webpack_require__(/*! regenerator-runtime */ "regenerator-run
 /***/ }),
 
 /***/ "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js":
-/*!*****************************************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js ***!
-  \*****************************************************************************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** ./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1172,9 +1262,9 @@ module.exports = hoistNonReactStatics;
 /***/ }),
 
 /***/ "./node_modules/next/dist/client/link.js":
-/*!******************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/next/dist/client/link.js ***!
-  \******************************************************************************************************************/
+/*!***********************************************!*\
+  !*** ./node_modules/next/dist/client/link.js ***!
+  \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1421,9 +1511,9 @@ exports.default = Link;
 /***/ }),
 
 /***/ "./node_modules/next/dist/client/router.js":
-/*!********************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/next/dist/client/router.js ***!
-  \********************************************************************************************************************/
+/*!*************************************************!*\
+  !*** ./node_modules/next/dist/client/router.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1438,7 +1528,7 @@ var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-cor
 
 var _construct2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/construct */ "./node_modules/@babel/runtime-corejs2/helpers/construct.js"));
 
-var _defineProperty = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js?14b9"));
+var _defineProperty = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js"));
 
 var __importDefault = void 0 && (void 0).__importDefault || function (mod) {
   return mod && mod.__esModule ? mod : {
@@ -1588,9 +1678,9 @@ exports.makePublicRouterInstance = makePublicRouterInstance;
 /***/ }),
 
 /***/ "./node_modules/next/dist/client/with-router.js":
-/*!*************************************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/next/dist/client/with-router.js ***!
-  \*************************************************************************************************************************/
+/*!******************************************************!*\
+  !*** ./node_modules/next/dist/client/with-router.js ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1675,9 +1765,9 @@ exports.default = withRouter;
 /***/ }),
 
 /***/ "./node_modules/next/link.js":
-/*!******************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/next/link.js ***!
-  \******************************************************************************************************/
+/*!***********************************!*\
+  !*** ./node_modules/next/link.js ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1687,9 +1777,9 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 /***/ }),
 
 /***/ "./node_modules/next/router.js":
-/*!********************************************************************************************************!*\
-  !*** C:/Users/HP PAVILION PC/Documents/NetBeansProjects/Website/mycountry/node_modules/next/router.js ***!
-  \********************************************************************************************************/
+/*!*************************************!*\
+  !*** ./node_modules/next/router.js ***!
+  \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1698,7 +1788,7 @@ module.exports = __webpack_require__(/*! ./dist/client/router */ "./node_modules
 
 /***/ }),
 
-/***/ "./node_modules/string-hash/index.js?f64c":
+/***/ "./node_modules/string-hash/index.js":
 /*!*******************************************!*\
   !*** ./node_modules/string-hash/index.js ***!
   \*******************************************/
@@ -1727,7 +1817,7 @@ module.exports = hash;
 
 /***/ }),
 
-/***/ "./node_modules/styled-jsx/dist/lib/stylesheet.js?6d56":
+/***/ "./node_modules/styled-jsx/dist/lib/stylesheet.js":
 /*!********************************************************!*\
   !*** ./node_modules/styled-jsx/dist/lib/stylesheet.js ***!
   \********************************************************/
@@ -2041,7 +2131,7 @@ function invariant(condition, message) {
 
 /***/ }),
 
-/***/ "./node_modules/styled-jsx/dist/style.js?de78":
+/***/ "./node_modules/styled-jsx/dist/style.js":
 /*!***********************************************!*\
   !*** ./node_modules/styled-jsx/dist/style.js ***!
   \***********************************************/
@@ -2059,7 +2149,7 @@ exports.default = void 0;
 
 var _react = __webpack_require__(/*! react */ "react");
 
-var _stylesheetRegistry = _interopRequireDefault(__webpack_require__(/*! ./stylesheet-registry */ "./node_modules/styled-jsx/dist/stylesheet-registry.js?49eb"));
+var _stylesheetRegistry = _interopRequireDefault(__webpack_require__(/*! ./stylesheet-registry */ "./node_modules/styled-jsx/dist/stylesheet-registry.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2152,7 +2242,7 @@ function flush() {
 
 /***/ }),
 
-/***/ "./node_modules/styled-jsx/dist/stylesheet-registry.js?49eb":
+/***/ "./node_modules/styled-jsx/dist/stylesheet-registry.js":
 /*!*************************************************************!*\
   !*** ./node_modules/styled-jsx/dist/stylesheet-registry.js ***!
   \*************************************************************/
@@ -2167,9 +2257,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _stringHash = _interopRequireDefault(__webpack_require__(/*! string-hash */ "./node_modules/string-hash/index.js?f64c"));
+var _stringHash = _interopRequireDefault(__webpack_require__(/*! string-hash */ "./node_modules/string-hash/index.js"));
 
-var _stylesheet = _interopRequireDefault(__webpack_require__(/*! ./lib/stylesheet */ "./node_modules/styled-jsx/dist/lib/stylesheet.js?6d56"));
+var _stylesheet = _interopRequireDefault(__webpack_require__(/*! ./lib/stylesheet */ "./node_modules/styled-jsx/dist/lib/stylesheet.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2440,7 +2530,7 @@ function invariant(condition, message) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./dist/style */ "./node_modules/styled-jsx/dist/style.js?de78")
+module.exports = __webpack_require__(/*! ./dist/style */ "./node_modules/styled-jsx/dist/style.js")
 
 
 /***/ }),
@@ -2454,7 +2544,7 @@ module.exports = __webpack_require__(/*! ./dist/style */ "./node_modules/styled-
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js?967e");
+/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js");
 /* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
@@ -2472,6 +2562,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_12__);
 /* harmony import */ var _Components_Forms__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../Components/Forms */ "./Components/Forms.js");
+/* harmony import */ var _Components_Data__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../Components/Data */ "./Components/Data.js");
 
 
 
@@ -2481,7 +2572,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\HP PAVILION PC\\Documents\\NetBeansProjects\\website\\mycountry\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\HP PAVILION PC\\Documents\\NetBeansProjects\\Website\\mycountry\\pages\\index.js";
+
 
 
 
@@ -2506,34 +2598,68 @@ function (_React$Component) {
 
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Index)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_8__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "getCountries",
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_8__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "state", {
+      flag: "",
+      country: "",
+      population: "",
+      borders: "",
+      capital: "",
+      currency: "",
+      region: "",
+      subRegion: "",
+      callingCodes: "",
+      timeZones: "",
+      languages: "",
+      error: ""
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_8__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "getCountry",
     /*#__PURE__*/
     function () {
       var _ref = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
       /*#__PURE__*/
       _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(e) {
-        var api, data, i;
+        var country, api, data;
         return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
                 e.preventDefault();
-                _context.next = 3;
-                return isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_11___default()('https://restcountries.eu/rest/v2/all');
+                country = e.target.elements.country.value;
+                _context.next = 4;
+                return isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_11___default()("https://restcountries.eu/rest/v2/name/".concat(country));
 
-              case 3:
+              case 4:
                 api = _context.sent;
-                _context.next = 6;
+                _context.next = 7;
                 return api.json();
 
-              case 6:
+              case 7:
                 data = _context.sent;
+                console.log(data);
 
-                for (i = 0; i <= data.length; i++) {
-                  console.log("The capital of ".concat(data[0].name, " is ").concat(data[0].capital));
+                if (country) {
+                  _this.setState({
+                    flag: data[0].flag,
+                    country: data[0].name,
+                    population: data[0].population,
+                    borders: data[0].borders,
+                    capital: data[0].capital,
+                    currency: data[0].currencies[0].name,
+                    region: data[0].region,
+                    subRegion: data[0].subregion,
+                    callingCodes: data[0].callingCodes,
+                    timeZones: data[0].timezones,
+                    languages: data[0].languages[0].name,
+                    error: null
+                  });
+                } else {
+                  _this.setState({
+                    error: "Invalid Input"
+                  });
                 }
 
-              case 8:
+              case 10:
               case "end":
                 return _context.stop();
             }
@@ -2555,27 +2681,45 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement(_Components_Layout__WEBPACK_IMPORTED_MODULE_10__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 53
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("div", {
-        className: "jsx-3885594138",
+        className: "jsx-3345662255",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 54
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement(_Components_Forms__WEBPACK_IMPORTED_MODULE_13__["default"], {
-        getCountries: this.getCountries,
+        getCountry: this.getCountry,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 55
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement(_Components_Data__WEBPACK_IMPORTED_MODULE_14__["default"], {
+        flag: this.state.flag,
+        country: this.state.country,
+        population: this.state.population,
+        borders: this.state.borders,
+        capital: this.state.capital,
+        currency: this.state.currency,
+        region: this.state.region,
+        subRegion: this.state.subRegion,
+        callingCodes: this.state.callingCodes,
+        timeZones: this.state.timeZones,
+        languages: this.state.languages,
+        error: this.state.error,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_9___default.a, {
-        id: "3885594138",
+        id: "3345662255",
         __self: this
-      }, "body{background:#333;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSFAgUEFWSUxJT04gUENcXERvY3VtZW50c1xcTmV0QmVhbnNQcm9qZWN0c1xcd2Vic2l0ZVxcbXljb3VudHJ5XFxwYWdlc1xcaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBMEIrQixBQUcrQixnQkFDbEIiLCJmaWxlIjoiQzpcXFVzZXJzXFxIUCBQQVZJTElPTiBQQ1xcRG9jdW1lbnRzXFxOZXRCZWFuc1Byb2plY3RzXFx3ZWJzaXRlXFxteWNvdW50cnlcXHBhZ2VzXFxpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMYXlvdXQgZnJvbSAnLi4vQ29tcG9uZW50cy9MYXlvdXQnO1xyXG5pbXBvcnQgZmV0Y2ggZnJvbSAnaXNvbW9ycGhpYy11bmZldGNoJztcclxuaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcclxuaW1wb3J0IEZvcm1zIGZyb20gJy4uL0NvbXBvbmVudHMvRm9ybXMnO1xyXG5cclxuY2xhc3MgSW5kZXggZXh0ZW5kcyBSZWFjdC5Db21wb25lbnR7XHJcbmdldENvdW50cmllcyA9IGFzeW5jKGUpID0+IHtcclxuICAgIGUucHJldmVudERlZmF1bHQoKTtcclxuICAgIGNvbnN0IGFwaSA9IGF3YWl0IGZldGNoKCdodHRwczovL3Jlc3Rjb3VudHJpZXMuZXUvcmVzdC92Mi9hbGwnKTtcclxuICAgIGNvbnN0IGRhdGEgPSBhd2FpdCBhcGkuanNvbigpO1xyXG5cclxuICAgIGZvcihsZXQgaT0wOyBpIDw9IGRhdGEubGVuZ3RoOyBpKyspXHJcblxyXG4gICAgY29uc29sZS5sb2coYFRoZSBjYXBpdGFsIG9mICR7ZGF0YVswXS5uYW1lfSBpcyAke2RhdGFbMF0uY2FwaXRhbH1gKVxyXG4gXHJcbiAgICBcclxufVxyXG5cclxuICAgIHJlbmRlcigpe1xyXG5cclxuICAgICAgICByZXR1cm4oXHJcbiAgICAgICAgICAgIDxMYXlvdXQ+XHJcbiAgICAgICAgICAgIDxkaXY+XHJcbiAgICAgICAgICAgIFxyXG4gICAgICAgICAgICA8Rm9ybXMgZ2V0Q291bnRyaWVzPXt0aGlzLmdldENvdW50cmllc31cclxuICAgICAgICAgICAgLz5cclxuICAgICAgICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcclxuICAgICAgICAgICAgYm9keXtcclxuICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAjMzMzO1xyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIFxyXG4gICAgICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICAgICAgICAgIFxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgPC9MYXlvdXQ+XHJcbiAgICAgICAgKTtcclxuICAgIH1cclxuICAgIH1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IEluZGV4OyJdfQ== */\n/*@ sourceURL=C:\\Users\\HP PAVILION PC\\Documents\\NetBeansProjects\\website\\mycountry\\pages\\index.js */")));
+      }, "body{background:#333;}@media (max-width:425px){body{overflow:hidden;background:white;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcSFAgUEFWSUxJT04gUENcXERvY3VtZW50c1xcTmV0QmVhbnNQcm9qZWN0c1xcV2Vic2l0ZVxcbXljb3VudHJ5XFxwYWdlc1xcaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBb0UrQixBQUcrQixBQUlNLGdCQUh4QixBQUl5QixpQkFDckIiLCJmaWxlIjoiQzpcXFVzZXJzXFxIUCBQQVZJTElPTiBQQ1xcRG9jdW1lbnRzXFxOZXRCZWFuc1Byb2plY3RzXFxXZWJzaXRlXFxteWNvdW50cnlcXHBhZ2VzXFxpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMYXlvdXQgZnJvbSAnLi4vQ29tcG9uZW50cy9MYXlvdXQnO1xyXG5pbXBvcnQgZmV0Y2ggZnJvbSAnaXNvbW9ycGhpYy11bmZldGNoJztcclxuaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcclxuaW1wb3J0IEZvcm1zIGZyb20gJy4uL0NvbXBvbmVudHMvRm9ybXMnO1xyXG5pbXBvcnQgRGF0YSBmcm9tICcuLi9Db21wb25lbnRzL0RhdGEnO1xyXG5cclxuY2xhc3MgSW5kZXggZXh0ZW5kcyBSZWFjdC5Db21wb25lbnR7XHJcbiAgICBzdGF0ZSA9IHtcclxuICAgICAgICBmbGFnOiBcIlwiLFxyXG4gICAgICAgIGNvdW50cnk6IFwiXCIsXHJcbiAgICAgICAgcG9wdWxhdGlvbjogXCJcIixcclxuICAgICAgICBib3JkZXJzOiBcIlwiLFxyXG4gICAgICAgIGNhcGl0YWw6IFwiXCIsXHJcbiAgICAgICAgY3VycmVuY3k6IFwiXCIsXHJcbiAgICAgICAgcmVnaW9uOiBcIlwiLFxyXG4gICAgICAgIHN1YlJlZ2lvbjogXCJcIixcclxuICAgICAgICBjYWxsaW5nQ29kZXM6IFwiXCIsXHJcbiAgICAgICAgdGltZVpvbmVzOiBcIlwiLFxyXG4gICAgICAgIGxhbmd1YWdlczogXCJcIixcclxuICAgICAgICBlcnJvcjogXCJcIixcclxuXHJcbiAgICB9XHJcbmdldENvdW50cnkgPSBhc3luYyAoZSkgPT4ge1xyXG4gICAgZS5wcmV2ZW50RGVmYXVsdCgpO1xyXG4gICAgY29uc3QgY291bnRyeSA9IGUudGFyZ2V0LmVsZW1lbnRzLmNvdW50cnkudmFsdWU7XHJcblxyXG4gICAgY29uc3QgYXBpID0gYXdhaXQgZmV0Y2goYGh0dHBzOi8vcmVzdGNvdW50cmllcy5ldS9yZXN0L3YyL25hbWUvJHtjb3VudHJ5fWApO1xyXG4gICAgY29uc3QgZGF0YSA9IGF3YWl0IGFwaS5qc29uKClcclxuICAgIGNvbnNvbGUubG9nKGRhdGEpO1xyXG4gICAgaWYgKGNvdW50cnkpe1xyXG50aGlzLnNldFN0YXRlKHtcclxuICAgIGZsYWc6IGRhdGFbMF0uZmxhZyxcclxuICAgIGNvdW50cnk6IGRhdGFbMF0ubmFtZSxcclxuICAgIHBvcHVsYXRpb246IGRhdGFbMF0ucG9wdWxhdGlvbixcclxuICAgIGJvcmRlcnM6IGRhdGFbMF0uYm9yZGVycyxcclxuICAgIGNhcGl0YWw6IGRhdGFbMF0uY2FwaXRhbCxcclxuICAgIGN1cnJlbmN5OiBkYXRhWzBdLmN1cnJlbmNpZXNbMF0ubmFtZSxcclxuICAgIHJlZ2lvbjogZGF0YVswXS5yZWdpb24sXHJcbiAgICBzdWJSZWdpb246IGRhdGFbMF0uc3VicmVnaW9uLFxyXG4gICAgY2FsbGluZ0NvZGVzOiBkYXRhWzBdLmNhbGxpbmdDb2RlcyxcclxuICAgIHRpbWVab25lczogZGF0YVswXS50aW1lem9uZXMsXHJcbiAgICBsYW5ndWFnZXM6IGRhdGFbMF0ubGFuZ3VhZ2VzWzBdLm5hbWUsXHJcbiAgICBlcnJvcjogbnVsbFxyXG59KVxyXG59ZWxzZSB7XHJcbiAgICB0aGlzLnNldFN0YXRlKHtlcnJvcjogXCJJbnZhbGlkIElucHV0XCJ9KVxyXG59ICAgXHJcbn1cclxuIFxyXG4gICAgcmVuZGVyKCl7XHJcbiAgICAgICAgcmV0dXJuKFxyXG5cclxuICAgICAgICAgICAgPExheW91dD4gXHJcbiAgICAgICAgICAgIDxkaXY+XHJcbiAgICAgICAgICAgIDxGb3JtcyBnZXRDb3VudHJ5PXt0aGlzLmdldENvdW50cnl9IC8+XHJcbiAgICAgICAgICAgIDxEYXRhIGZsYWc9e3RoaXMuc3RhdGUuZmxhZ31cclxuICAgICAgICAgICAgY291bnRyeT17dGhpcy5zdGF0ZS5jb3VudHJ5fVxyXG4gICAgICAgICAgICBwb3B1bGF0aW9uPXt0aGlzLnN0YXRlLnBvcHVsYXRpb259XHJcbiAgICAgICAgICAgIGJvcmRlcnM9e3RoaXMuc3RhdGUuYm9yZGVyc31cclxuICAgICAgICAgICAgY2FwaXRhbD17dGhpcy5zdGF0ZS5jYXBpdGFsfVxyXG4gICAgICAgICAgICBjdXJyZW5jeT17dGhpcy5zdGF0ZS5jdXJyZW5jeX1cclxuICAgICAgICAgICAgcmVnaW9uPXt0aGlzLnN0YXRlLnJlZ2lvbn1cclxuICAgICAgICAgICAgc3ViUmVnaW9uPXt0aGlzLnN0YXRlLnN1YlJlZ2lvbn1cclxuICAgICAgICAgICAgY2FsbGluZ0NvZGVzPXt0aGlzLnN0YXRlLmNhbGxpbmdDb2Rlc31cclxuICAgICAgICAgICAgdGltZVpvbmVzPXt0aGlzLnN0YXRlLnRpbWVab25lc31cclxuICAgICAgICAgICAgbGFuZ3VhZ2VzPXt0aGlzLnN0YXRlLmxhbmd1YWdlc31cclxuICAgICAgICAgICAgZXJyb3I9e3RoaXMuc3RhdGUuZXJyb3J9XHJcbiAgICAgICAgICAgIC8+XHJcbiAgICAgICAgICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXHJcbiAgICAgICAgICAgIGJvZHl7XHJcbiAgICAgICAgICAgICAgYmFja2dyb3VuZDogIzMzMztcclxuICAgICAgICAgICAgfSAgIFxyXG4gICAgICAgICAgICBAbWVkaWEgKG1heC13aWR0aDo0MjVweCl7XHJcbiAgICAgICAgICAgICAgICBib2R5e1xyXG4gICAgICAgICAgICAgICAgICAgIG92ZXJmbG93OiBoaWRkZW47XHJcbiAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogd2hpdGU7XHJcbiAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgICAgICBcclxuICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgIDwvTGF5b3V0PlxyXG4gICAgICAgICk7XHJcbiAgICB9XHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IEluZGV4OyJdfQ== */\n/*@ sourceURL=C:\\Users\\HP PAVILION PC\\Documents\\NetBeansProjects\\Website\\mycountry\\pages\\index.js */")));
     }
   }]);
 
@@ -2593,7 +2737,7 @@ function (_React$Component) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\HP PAVILION PC\Documents\NetBeansProjects\website\mycountry\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\HP PAVILION PC\Documents\NetBeansProjects\Website\mycountry\pages\index.js */"./pages/index.js");
 
 
 /***/ }),
