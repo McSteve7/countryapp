@@ -5,7 +5,7 @@ class Data extends React.Component{
             <div className="container">
             <ul>
             <img className="flag-image"
-            src={this.props.flag} alt=''
+            src={this.props.flag} alt='flag-image'
             />
             {this.props.country && <li className="country-list">Country: {this.props.country}</li>}
             {this.props.population && <li>Population: {this.props.population}</li>}
