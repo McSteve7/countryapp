@@ -18,7 +18,7 @@ class Index extends React.Component{
         timeZones: "",
         languages: "",
         error: "",
-
+ 
     }
 getCountry = async (e) => {
     e.preventDefault();
