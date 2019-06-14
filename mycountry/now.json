@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "alias": "mycountry-app",
+    "name": "mycountry",
+
+    "builds": [
+      { "src": "next.config.js", "use": "@now/next" }
+    ]
+}
